@@ -926,3 +926,15 @@ app.listen(port, () => {
 ]
 
 
+{/* // file readFile
+const fs = require("fs").promises
+
+// read Data
+
+const dataVal = await fs.readFile("./data.json","utf-8")
+const data = dataVal ? JSON.parse(dataVal) : [];
+
+// write Data
+
+
+await fs.writeFile("./data.json",JSON.stringify(data,null,2)) */}
